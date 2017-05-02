@@ -18,4 +18,10 @@
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
 </manifest>
